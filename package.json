@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Smart Subscription Tracker",
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css && node build.js",
     "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "start": "npm run build"
   },
