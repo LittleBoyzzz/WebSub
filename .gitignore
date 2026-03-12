@@ -7,3 +7,5 @@ public/
 dist/
 
 
+.vercel
+.env*.local
