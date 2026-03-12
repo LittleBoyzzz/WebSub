@@ -1,0 +1,12 @@
+{
+  "name": "submanager",
+  "version": "1.0.0",
+  "description": "Smart Subscription Tracker",
+  "scripts": {
+    "build": "echo 'Static site - no build needed'",
+    "start": "echo 'Static site ready'"
+  },
+  "keywords": ["subscription", "tracker", "manager"],
+  "author": "",
+  "license": "ISC"
+}
