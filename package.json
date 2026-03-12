@@ -3,10 +3,15 @@
   "version": "1.0.0",
   "description": "Smart Subscription Tracker",
   "scripts": {
-    "build": "echo 'Static site - no build needed'",
-    "start": "echo 'Static site ready'"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "start": "npm run build"
   },
   "keywords": ["subscription", "tracker", "manager"],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.24"
+  }
 }
